@@ -24,7 +24,7 @@
     padding-top: 2px;
 }
 
-.header-bot {
+.header-mid {
     height: 80px;
     display: flex;
     flex-flow: row nowrap;
@@ -35,13 +35,43 @@
     gap: 20px;
 }
 
-.header-bot h2 {
+.header-mid h2 {
     color: #fff;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
+}
+
+.header-bot {
+    background-color: #00669F;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header-bot div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.8rem;
+    gap: 1.5rem;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+
+.header-bot a {
+    padding-right: 2%;
+    text-decoration: none;
+    color: #fff;
 }
 
 main {
@@ -79,17 +109,17 @@ section h1 {
     text-align: left;
 }
 
-.field input, select {
+/* .field input, select {
     padding-right: 400px;
     padding-left: 26px;
     padding-top: 16px;
     padding-bottom: 17px;
-}
+} */
 
-.field select {
-    width: 607px;
+.field input, select {
     height: 60px;
-    padding-left: 26px;
+    width: 620px;
+    padding-left: 9px;
 }
 
 .login {
