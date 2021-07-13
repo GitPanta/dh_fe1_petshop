@@ -251,10 +251,10 @@ footer section{
     color: #fff;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-right: 2rem;
-    margin-left: 0.3rem;
+    gap: 2rem;
+    
 }
 
 .footer-top aside h2 {
@@ -265,11 +265,10 @@ footer section{
     letter-spacing: 0em;
 }
 
-.footer-top .footer-sub {
-    justify-content: space-around;
-    margin-top: 1rem;
-    margin-bottom: 0.6rem;
-    margin-left: 0.8rem;
+.footer-sub {
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .subscribe-text {
@@ -314,7 +313,11 @@ footer section{
     align-self: center;
 }
 
-.footer-mid aside {
+.footer-mid div {
+    align-self: center;
+}
+
+.footer-mid div aside {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
@@ -359,4 +362,36 @@ footer section{
     text-align: center;
     padding-top: 0.1rem;
     padding-bottom: 0.2rem;
+}
+
+@media screen and (min-width: 520px) {
+    .main-products {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .footer-top {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    .footer-sub {
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .footer-mid {
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4%;
+    }
 }
