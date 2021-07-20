@@ -1,13 +1,18 @@
+@use 'variables' as var;
+
+* {
+    font-family: var.$font-family;
+}
+
 h1, h2 {
     background-color: #C4C4C4;
-    font-family: Times New Roman;
+    font-weight: 700;
 }
 
 h1 {
     
     font-size: 35px;
     font-style: normal;
-    font-weight: 700;
     line-height: 30px;
     letter-spacing: 0em;
     color: #005677;
@@ -18,7 +23,6 @@ h1 {
 h2 {
     font-size: 20px;
     font-style: normal;
-    font-weight: 700;
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
@@ -45,7 +49,6 @@ section {
 .datos {
     ul {
         li {
-            font-family: Times New Roman;
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
@@ -53,7 +56,6 @@ section {
             letter-spacing: 0em;
             text-align: left;
             span {
-                font-family: Times New Roman;
                 font-size: 15px;
                 font-style: italic;
                 font-weight: 700;
@@ -71,7 +73,6 @@ section {
         list-style: none;
 
         li {
-            font-family: Times New Roman;
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
@@ -80,7 +81,6 @@ section {
             text-align: left;
 
             span {
-                font-family: Times New Roman;
                 font-size: 15px;
                 font-style: normal;
                 font-weight: 700;
@@ -97,7 +97,6 @@ section {
         list-style: none;
 
         li {
-            font-family: Times New Roman;
             font-size: 15px;
             font-style: normal;
             font-weight: 400;
@@ -106,7 +105,6 @@ section {
             text-align: left;
 
             span {
-                font-family: Times New Roman;
                 font-size: 15px;
                 font-style: normal;
                 font-weight: 700;
@@ -122,7 +120,6 @@ footer {
     div {
         color: #fff;
         background-color: #005677;
-        font-family: Times New Roman;
         font-size: 20px;
         font-style: normal;
         font-weight: 700;

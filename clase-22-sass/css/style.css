@@ -1,12 +1,15 @@
+* {
+  font-family: Times New Roman;
+}
+
 h1, h2 {
   background-color: #C4C4C4;
-  font-family: Times New Roman;
+  font-weight: 700;
 }
 
 h1 {
   font-size: 35px;
   font-style: normal;
-  font-weight: 700;
   line-height: 30px;
   letter-spacing: 0em;
   color: #005677;
@@ -17,7 +20,6 @@ h1 {
 h2 {
   font-size: 20px;
   font-style: normal;
-  font-weight: 700;
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
@@ -42,7 +44,6 @@ section {
 }
 
 .datos ul li {
-  font-family: Times New Roman;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -51,7 +52,6 @@ section {
   text-align: left;
 }
 .datos ul li span {
-  font-family: Times New Roman;
   font-size: 15px;
   font-style: italic;
   font-weight: 700;
@@ -64,7 +64,6 @@ section {
   list-style: none;
 }
 .formacion ul li {
-  font-family: Times New Roman;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -73,7 +72,6 @@ section {
   text-align: left;
 }
 .formacion ul li span {
-  font-family: Times New Roman;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -86,7 +84,6 @@ section {
   list-style: none;
 }
 .experiencia ul li {
-  font-family: Times New Roman;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +92,6 @@ section {
   text-align: left;
 }
 .experiencia ul li span {
-  font-family: Times New Roman;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -107,7 +103,6 @@ section {
 footer div {
   color: #fff;
   background-color: #005677;
-  font-family: Times New Roman;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
