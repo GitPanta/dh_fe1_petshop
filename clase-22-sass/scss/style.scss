@@ -1,0 +1,140 @@
+h1, h2 {
+    background-color: #C4C4C4;
+    font-family: Times New Roman;
+}
+
+h1 {
+    
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #005677;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #005677;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+}
+
+nav {
+    text-align: center;
+}
+
+main {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.datos {
+    ul {
+        li {
+            font-family: Times New Roman;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 13px;
+            letter-spacing: 0em;
+            text-align: left;
+            span {
+                font-family: Times New Roman;
+                font-size: 15px;
+                font-style: italic;
+                font-weight: 700;
+                line-height: 13px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+.formacion {
+    ul {
+        list-style: none;
+
+        li {
+            font-family: Times New Roman;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            span {
+                font-family: Times New Roman;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 13px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.experiencia {
+    ul {
+        list-style: none;
+
+        li {
+            font-family: Times New Roman;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+
+            span {
+                font-family: Times New Roman;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 13px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+        }
+    }
+}
+
+footer {
+    div {
+        color: #fff;
+        background-color: #005677;
+        font-family: Times New Roman;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        height: 39px;
+        padding-top: 10px;
+
+        span, img {
+            padding-left: 13px;
+            padding-right: 13px;
+        }
+    }
+}
